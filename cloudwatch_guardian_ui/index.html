@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CloudWatch Guardian</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>☁️ CloudWatch Guardian</h1>
+    <p>Multi-Environment Security Dashboard</p>
+  </header>
+
+  <section class="score-section">
+    <h2>Global Security Score</h2>
+    <div class="score" id="securityScore">87%</div>
+  </section>
+
+  <section class="filter-section">
+    <label for="envFilter">Filter by Environment:</label>
+    <select id="envFilter">
+      <option value="all">All</option>
+      <option value="production">Production</option>
+      <option value="staging">Staging</option>
+      <option value="dev">Dev</option>
+    </select>
+  </section>
+
+  <section class="table-section">
+    <h2>Suspicious Events</h2>
+    <table id="eventsTable">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>User</th>
+          <th>Event</th>
+          <th>Env</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <button id="reanalyzeBtn">🔁 Re-analyze Logs</button>
+
+  <script src="main.js"></script>
+</body>
+</html>

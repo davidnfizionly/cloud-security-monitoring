@@ -1,0 +1,362 @@
+[
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "Root",
+      "userName": "devUser",
+      "accountId": "111111111111"
+    },
+    "eventTime": "2025-07-15T10:00:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "StopLogging",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.200.81",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "dev",
+    "errorCode": "AccessDenied"
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "root",
+      "accountId": "222222222222"
+    },
+    "eventTime": "2025-07-15T10:07:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "DeleteTrail",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.192.5",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "dev",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "admin",
+      "accountId": "333333333333"
+    },
+    "eventTime": "2025-07-15T10:14:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "StopLogging",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.251.129",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "dev",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "root",
+      "accountId": "222222222222"
+    },
+    "eventTime": "2025-07-15T10:21:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "ConsoleLogin",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.89.137",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "dev",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "Root",
+      "userName": "root",
+      "accountId": "222222222222"
+    },
+    "eventTime": "2025-07-15T10:28:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "StopLogging",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.230.7",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "production",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "qaTester",
+      "accountId": "222222222222"
+    },
+    "eventTime": "2025-07-15T10:35:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "ConsoleLogin",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.12.129",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "production",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "devUser",
+      "accountId": "333333333333"
+    },
+    "eventTime": "2025-07-15T10:42:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "AttachPolicy",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.59.58",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "production",
+    "errorCode": "AccessDenied"
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "admin",
+      "accountId": "333333333333"
+    },
+    "eventTime": "2025-07-15T10:49:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "CreateUser",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.3.182",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "staging",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "Root",
+      "userName": "qaTester",
+      "accountId": "333333333333"
+    },
+    "eventTime": "2025-07-15T10:56:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "ConsoleLogin",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.141.168",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "staging",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "cloudEngineer",
+      "accountId": "111111111111"
+    },
+    "eventTime": "2025-07-15T11:03:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "StopLogging",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.29.21",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "staging",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "devUser",
+      "accountId": "222222222222"
+    },
+    "eventTime": "2025-07-15T11:10:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "CreateUser",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.132.30",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "dev",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "qaTester",
+      "accountId": "111111111111"
+    },
+    "eventTime": "2025-07-15T11:17:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "AttachPolicy",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.138.41",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "dev",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "Root",
+      "userName": "cloudEngineer",
+      "accountId": "222222222222"
+    },
+    "eventTime": "2025-07-15T11:24:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "ConsoleLogin",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.150.144",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "production",
+    "errorCode": "AccessDenied"
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "devUser",
+      "accountId": "222222222222"
+    },
+    "eventTime": "2025-07-15T11:31:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "StopLogging",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.232.138",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "production",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "devUser",
+      "accountId": "222222222222"
+    },
+    "eventTime": "2025-07-15T11:38:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "AccessDenied",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.144.200",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "dev",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "admin",
+      "accountId": "111111111111"
+    },
+    "eventTime": "2025-07-15T11:45:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "ConsoleLogin",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.243.251",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "dev",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "Root",
+      "userName": "cloudEngineer",
+      "accountId": "111111111111"
+    },
+    "eventTime": "2025-07-15T11:52:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "AttachPolicy",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.69.22",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "staging",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "root",
+      "accountId": "111111111111"
+    },
+    "eventTime": "2025-07-15T11:59:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "StopLogging",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.80.93",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "dev",
+    "errorCode": null
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "cloudEngineer",
+      "accountId": "333333333333"
+    },
+    "eventTime": "2025-07-15T12:06:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "AttachPolicy",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.3.224",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "dev",
+    "errorCode": "AccessDenied"
+  },
+  {
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "qaTester",
+      "accountId": "333333333333"
+    },
+    "eventTime": "2025-07-15T12:13:00Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "AttachPolicy",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.168.36.241",
+    "userAgent": "signin.amazonaws.com",
+    "requestParameters": null,
+    "responseElements": null,
+    "environment": "staging",
+    "errorCode": null
+  }
+]
