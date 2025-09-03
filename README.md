@@ -40,7 +40,7 @@ It uses **CloudTrail Lake** as a log store, **Athena** for analysis, **Step Func
 ##  System Architecture
 
 ![Architecture Diagram](images/cloud-security-monitoring-dashboard.png)  
-*Complete AWS-native workflow: CloudTrail Lake → Athena → Step Functions → QuickSight*  
+*High-level architecture of CloudWatch Guardian: suspicious events flow from CloudTrail Lake into Athena queries, then through EventBridge to a Step Functions workflow that orchestrates detection, risk scoring, and alerting. Insights are visualized in QuickSight for multi-environment monitoring (Prod / Staging / Dev).*  
 
 ---
 
@@ -82,21 +82,21 @@ It uses **CloudTrail Lake** as a log store, **Athena** for analysis, **Step Func
 
 ## 🖼️ Production Evidence
 
-###  Athena Queries – Suspicious Events  
-![Athena Query](images/1.png)  
-*Athena detecting suspicious API calls such as `DeleteTrail`, `StopLogging`, or denied actions.*  
+###  CloudTrail Lake – Centralized Event Logs  
+![CloudTrail Lake](images/1.png)  
+*CloudTrail Lake configured to centralize and store API activity events. The event history shows critical actions such as CreateLogGroup, CreateLogStream, and StartQueryExecution.*  
 
-###  Step Functions Workflow  
+###  Step Functions – Security Workflow Orchestration  
 ![Step Functions](images/2.png)  
-*Automated state machine orchestrating detection → scoring → alerting.*  
+*Successful execution of the CloudWatchGuardianWorkflow Step Function orchestrating the Lambda functions: detectSuspiciousEvents, scoreEventRisk, and sendSecurityAlert.*  
 
-###  QuickSight Dashboard  
-![QuickSight](images/3.png)  
-*Interactive visualization of suspicious events, sorted by user, environment, and risk score.*  
+###  Amazon Athena – Suspicious Activity Query  
+![Amazon Athena](images/3.png)  
+*SQL query executed against CloudTrail logs in Athena. Example: detecting root logins and stop logging actions (StopLogging). Instant results confirm effective anomaly detection.*  
 
-###  Secrets Manager Simulation  
-![Secrets](images/4.png)  
-*Dummy environment credentials securely stored in AWS Secrets Manager.*  
+###  Step Functions – Risk Scoring & Alert Processing  
+![tep Functions](images/4.png)  
+*Step Function execution details showing input (Athena execution error simulated with riskScore: 40) and output (alert successfully processed). Validates the scoring and alert pipeline.*  
 
 ---
 
